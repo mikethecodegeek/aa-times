@@ -26,20 +26,27 @@
     grid-area: footer1;
     font-size: 11px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     flex-direction: column;
     align-items: flex-start;
+    border-bottom: 1px solid #e2e2e2;
+    border-top: 1px solid #e2e2e2;
+    /* padding-bottom: 11px; */
 }
 .masthead__logo{
     grid-area: footer2;
+    border-bottom: 1px solid #e2e2e2;
+    border-top: 1px solid #e2e2e2;
 }
 .masthead__paper{
     grid-area: footer3;
     font-size: 11px;
     display: flex;
     justify-content: flex-end;
-    flex-direction: row;
-    align-items: center;
+    align-items: flex-end;
+    border-bottom: 1px solid #e2e2e2;
+    border-top: 1px solid #e2e2e2;
+    /* padding-bottom: 11px; */
 
 }
 
@@ -69,5 +76,8 @@
     text-transform: uppercase;
   }
   .fa-newspaper{
-      padding: 10px;
+      padding-right: 10px;
+      /* margin-bottom: 20px; */
+      /* padding-bottom: 2px; */
+      
   }
