@@ -1,0 +1,27 @@
+.masthead{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+    "header1 header2 header3"
+    "body1   body2  body3"
+    "footer1 footer2 footer3" ;
+}
+
+.masthead__menu-and-search{
+    grid-area: header1 ;
+}
+.masthead__actions{
+    grid-area: header3;
+}
+.masthead__technologies{
+    grid-area: body2;
+}
+.masthead__date{
+    grid-area: footer1;
+}
+.masthead__logo{
+    grid-area: footer2;
+}
+.masthead__paper{
+    grid-area: footer3;
+}
