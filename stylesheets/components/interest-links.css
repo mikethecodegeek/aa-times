@@ -1,5 +1,8 @@
 .interest-links {
     display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    border-top: 2px solid black;
 
 }
 
@@ -10,9 +13,24 @@
 
 .flex {
     display: flex;
+    font-size: 12px;
+    max-width: 200px;
+    /* align-items: flex-end; */
+    height: 75px;
+    margin-top: 10px;
 }
 
 .flex-apart {
     display: flex;
     justify-content: space-between;
 }
+.bold{
+    font-weight: bold;
+}
+.green{
+    color:green;
+}
+.interest-descr{
+    margin-left: 10px;
+}
+
