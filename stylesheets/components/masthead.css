@@ -9,6 +9,9 @@
 
 .masthead__menu-and-search{
     grid-area: header1 ;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
 }
 .masthead__actions{
     grid-area: header3;
@@ -24,4 +27,15 @@
 }
 .masthead__paper{
     grid-area: footer3;
+}
+
+.masthead__menu--icons {
+    font-size: 11px;
+    padding: 7px 9px;
+
+}
+
+.masthead__menu--icons:hover {
+  background-color: #f7f7f5;
+    
 }
