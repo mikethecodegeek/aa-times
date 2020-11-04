@@ -15,18 +15,32 @@
 }
 .masthead__actions{
     grid-area: header3;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end ;
 }
 .masthead__technologies{
     grid-area: body2;
 }
 .masthead__date{
     grid-area: footer1;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
 }
 .masthead__logo{
     grid-area: footer2;
 }
 .masthead__paper{
     grid-area: footer3;
+    font-size: 11px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+
 }
 
 .masthead__menu--icons {
@@ -37,5 +51,23 @@
 
 .masthead__menu--icons:hover {
   background-color: #f7f7f5;
-    
+
 }
+.masthead__technologies {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    text-align: center;
+  }
+
+  .masthead__technology {
+    margin: 0 4px;
+  }
+
+  .masthead__technology-list {
+    color: #6f6f6f;
+    font-size: 10px;
+    text-transform: uppercase;
+  }
+  .fa-newspaper{
+      padding: 10px;
+  }
